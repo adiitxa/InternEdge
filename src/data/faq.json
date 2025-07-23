@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is InternEdge?",
+    "answer": "InternEdge is a specialized internship platform that connects ambitious interns with innovative startups. It allows startups to post internship opportunities and students or early professionals to discover and apply for meaningful, career-launching roles."
+  },
+  {
+    "question": "How do I post an internship?",
+    "answer": "If you're a startup, simply log in and navigate to the 'Post Internship' section. Fill out the internship details, duration, skills required, and submit the form to make your listing live."
+  },
+  {
+    "question": "How can I search for internships?",
+    "answer": "Interns can search for internships using relevant keywords, categories, skills, or locations through the search bar on the homepage or the internships page."
+  },
+  {
+    "question": "How do I apply for an internship?",
+    "answer": "To apply, click on an internship listing that matches your interest. Follow the application instructions—typically including uploading your resume and a short note or cover letter."
+  },
+  {
+    "question": "Can I save internships to apply later?",
+    "answer": "Yes! Click the 'Save Internship' button on any listing to bookmark it. You can revisit all your saved internships anytime from your profile under the 'Saved Internships' tab."
+  },
+  {
+    "question": "How do I track my internship applications?",
+    "answer": "Applicants can track their internship applications from the 'My Applications' section in their profile. You'll see updates on whether your application is pending, shortlisted, or selected."
+  }
+]
