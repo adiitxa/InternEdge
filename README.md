@@ -7,7 +7,7 @@ Your **launchpad to internships & fresh opportunities**.
 
 ## 📸 Preview
 
-> Coming soon at [internedge.vercel.app](https://internedge.vercel.app) 🚧
+> https://internedge.vercel.app 🚧
 
 ---
 
@@ -44,9 +44,9 @@ Clone the repo and install dependencies:
 git clone https://github.com/yourusername/internedge.git
 cd internedge
 npm install
-npm run dev
+npm run dev 
+```
 ---
-
 ## 🔐 Environment Variables
 Create a .env file in the root directory and add:
 
@@ -54,7 +54,8 @@ Create a .env file in the root directory and add:
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-
-👨‍💻 Author
+```
+---
+## 👨‍💻 Author
 Aditya Gaikwad
 Building cool products & startups — one idea at a time.
