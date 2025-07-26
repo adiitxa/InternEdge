@@ -21,9 +21,9 @@ const LandingPage = () => {
     <main className="flex flex-col gap-10 sm:gap-20 py-10 sm:py-20">
       <section className="text-center ">
         <h1 className="flex flex-col items-center justify-center gradient-title font-extrabold text-3xl sm:text-5xl lg:text-8xl tracking-tighter py-4">
-         One Platform
+          One Platform
           <span className="flex items-center gap-2 sm:gap-6">
-             Endless Internships.
+            Endless Internships.
             {/* <img
               src="/logo.png"
               className="h-14 sm:h-24 lg:h-32"
@@ -32,17 +32,17 @@ const LandingPage = () => {
           </span>
         </h1>
         <p className="text-gray-300 sm:mt-4 text-xs sm:text-xl">
-         InternEdge - Powering Startup Teams with the Next Generation of Talent.
+          InternEdge - Powering Startup Teams with the Next Generation of Talent.
         </p>
       </section>
-      <div className="flex gap-4 justify-center">
-        <Link to={"/jobs"}>
-          <Button variant="blue" size="xl">
+      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center sm:items-start w-full sm:w-auto px-4">
+        <Link to="/jobs" className="w-full sm:w-auto">
+          <Button variant="blue" size="xl" className="w-full sm:w-auto">
             Explore Internships
           </Button>
         </Link>
-        <Link to={"/post-job"}>
-          <Button variant="destructive" size="xl">
+        <Link to="/post-job" className="w-full sm:w-auto">
+          <Button variant="destructive" size="xl" className="w-full sm:w-auto">
             Create Internships
           </Button>
         </Link>
@@ -68,28 +68,28 @@ const LandingPage = () => {
           ))}
         </CarouselContent>
       </Carousel>
-      
+
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
-  <Card>
-    <CardHeader>
-      <CardTitle className="font-bold text-xl">For Intern Seekers</CardTitle>
-    </CardHeader>
-    <CardContent className="text-muted-foreground">
-      Discover curated internship opportunities, save favorites, and apply with ease.
-    </CardContent>
-  </Card>
-  <Card>
-    <CardHeader>
-      <CardTitle className="font-bold text-xl">For Startups</CardTitle>
-    </CardHeader>
-    <CardContent className="text-muted-foreground">
-      Post internships, manage applications, and connect with top emerging talent.
-    </CardContent>
-  </Card>
-</section>
+        <Card>
+          <CardHeader>
+            <CardTitle className="font-bold text-xl">For Intern Seekers</CardTitle>
+          </CardHeader>
+          <CardContent className="text-muted-foreground">
+            Discover curated internship opportunities, save favorites, and apply with ease.
+          </CardContent>
+        </Card>
+        <Card>
+          <CardHeader>
+            <CardTitle className="font-bold text-xl">For Startups</CardTitle>
+          </CardHeader>
+          <CardContent className="text-muted-foreground">
+            Post internships, manage applications, and connect with top emerging talent.
+          </CardContent>
+        </Card>
+      </section>
 
-<img src="/banner.png" className="w-100"/>
+      <img src="/banner.png" className="w-100" />
 
       <Accordion type="multiple" className="w-full">
         {faqs.map((faq, index) => (
